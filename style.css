@@ -1,0 +1,55 @@
+[v-cloak] {
+    display: none;
+}
+
+body {
+    /* background-color: rgb(1, 91, 1); */
+    background: linear-gradient(to bottom, #006600 0%, #9900cc 100%);
+    color: white;
+
+}
+
+#app {
+    margin: 0 auto;
+}
+
+#eight-ball {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: black;
+}
+
+#triangle {
+    width: 0; 
+    height: 0;
+    margin-left: 50px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+#message-area {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    background-color: white;
+    margin-left: 150px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#message {
+    color: black;
+    margin-top: 50px;
+}
+
+#question-area {
+    text-align: center;
+}
+
+button {
+    border-radius: 5%;
+}
