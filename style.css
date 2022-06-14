@@ -44,6 +44,7 @@ body {
 #message {
     color: black;
     margin-top: 50px;
+    transition: 1s;
 }
 
 #question-area {
